@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1062343360221",
+    "firebase_url": "https://messengerapp-35d93.firebaseio.com",
+    "project_id": "messengerapp-35d93",
+    "storage_bucket": "messengerapp-35d93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062343360221:android:19014a8371c3653f",
+        "android_client_info": {
+          "package_name": "com.lounah.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062343360221-7l0l2orhh2b0i4kr90j5remohiasobsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJOE_tem67tfvSDMjsxQ-VecpD4yhgAQg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+
+<tabs >
+    <tab
+        id="@+id/action_profile"
+        icon="@drawable/ic_person_24dp"
+        title="@string/bottom_navigation_item_profile"
+        />
+    <tab
+        id="@+id/action_dialogs"
+        icon="@drawable/ic_email_24dp"
+        title="@string/bottom_navigation_item_dialogs"
+        />
+    <tab
+        id="@+id/action_contacts"
+        icon="@drawable/ic_group_24dp"
+        title="@string/bottom_navigation_item_contacts"
+        />
+    <tab
+        id="@+id/action_feed"
+        icon="@drawable/ic_whatshot_24dp"
+        title="@string/bottom_navigation_item_tape"
+        />
+</tabs>

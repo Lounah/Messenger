@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="bottom_navigation_item_profile">Профиль</string>
+    <string name="bottom_navigation_item_dialogs">Диалоги</string>
+    <string name="bottom_navigation_item_contacts">Контакты</string>
+    <string name="bottom_navigation_item_tape">Лента</string>
+    <string name="login">Логин</string>
+    <string name="signup">Регистрация</string>
+    <string name="auth">Вход</string>
+    <string name="password">Пароль</string>
+    <string name="password_re_enter">Повторите пароль</string>
+    <string name="login_enter">Войти</string>
+    <string name="signup_enter">Зарегистрироваться</string>
+    <string name="default_username">Null</string>
+    <string name="default_message">Null</string>
+    <string name="default_time">00:00</string>
+    <string name="default_message_hint">Введите сообщение...</string>
+    <string name="default_error_message">Произошла сетевая ошибка</string>
+    <string name="please_wait">Пожалуйста, подождите...</string>
+    <string name="login_error">Произошла ошибка аутентификации</string>
+    <string name="registration_error">Имя пользователя занято</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="create_post">Текст</string>
+    <string name="add_photo">Фото</string>
+</resources>

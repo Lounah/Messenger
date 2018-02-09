@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/greyLight"
+        android:layout_alignParentTop="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar_iv"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_margin="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/username_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatar_iv"
+        android:layout_marginTop="16dp"
+        android:text="Lounah"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11/11/11"
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent"
+        android:layout_toRightOf="@id/avatar_iv"
+        android:layout_below="@id/username_tv"/>
+
+
+    <ImageView
+        android:id="@+id/content_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar_iv"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+
+    <ImageButton
+        android:id="@+id/like_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_iv"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_favorite_24dp"/>
+
+    <TextView
+        android:id="@+id/count_of_likes_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/like_btn"
+        android:layout_below="@+id/content_iv"
+        android:layout_marginRight="26dp"
+        android:layout_toEndOf="@+id/like_btn"
+        android:text="13"
+        android:textAlignment="center" />
+
+
+    <ImageButton
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_iv"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toRightOf="@id/count_of_likes_tv"
+        android:src="@drawable/ic_bookmark_24dp"
+        android:background="@android:color/transparent"/>
+
+
+    <ImageButton
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_iv"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toRightOf="@id/save_btn"
+        android:src="@drawable/ic_delete_24dp"
+        android:background="@android:color/transparent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/greyLight"
+        android:layout_below="@id/delete_btn"/>
+
+</RelativeLayout>
